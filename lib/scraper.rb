@@ -4,12 +4,10 @@ require 'pry'
 
 class Scraper
 end
+require 'nokogiri'
+require 'open-uri'
 
-  require 'nokogiri'
- require 'open-uri'
-
- site = "http://gcplsoccer.bonzidev.com/sam/standings/ss/schedule.php?v=3&divisionID=NDE4MjM5/*"
-
+ site = "https://learn-co-curriculum.github.io/student-scraper-test-page/"
  doc = Nokogiri::HTML(open(site))
 
  # code to select [nth]team in table position
