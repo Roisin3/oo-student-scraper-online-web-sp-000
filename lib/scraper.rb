@@ -9,4 +9,3 @@ require 'open-uri'
 
  site = "https://learn-co-curriculum.github.io/student-scraper-test-page/"
  doc = Nokogiri::HTML(open(site))
-
