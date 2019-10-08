@@ -9,5 +9,5 @@ class Scraper
 
   def srape_profile_page
   end
-  
+
 end
